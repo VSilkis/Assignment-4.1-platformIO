@@ -64,12 +64,12 @@ In the example below we are using a Arduino UNO
 
 ---
 ![Code](VS_code_pic_5.png)
-- First we will tell the program what pin we will be using in the “pinMode”. We have predefined that pin 2 will be named redLed for easier use and visual representation in the code. If we were to change the pin we only have to change on one line of code. 
-- In digitalWrite we will tell the redLed to turn on using the statement “HIGH” and turn it off by using "LOW".
-- Serial.begin(9600) starts the serial monitor so we can write things during the loop or setup. This can be used for debugging or to displaying important information to the user. The numbers in thhe parentheses sets the baud rate. It's default value is often 9600 and is used for simple serial communication.
-- In the first part of the loop, the LED will turn on for three seconds represented by the “Delay(3000)” and the delay uses millisecond in the parentheses.
+- First we will tell the program what pin we will be using in the “**pinMode**”. We have predefined that pin 2 will be named redLed for easier use and visual representation in the code. If we were to change the pin we only have to change on one line of code. 
+- In **digitalWrite** we will tell the redLed to turn on using the statement “**HIGH**” and turn it off by using "**LOW**".
+- **Serial.begin(9600)** starts the serial monitor so we can write things during the loop or setup. This can be used for debugging or to displaying important information to the user. The numbers in thhe parentheses sets the baud rate. It's default value is often 9600 and is used for simple serial communication.
+- In the first part of the loop, the LED will turn on for three seconds represented by the “**Delay(3000)**” and the delay uses millisecond in the parentheses.
 - In the second part it will be turned off for 2 seconds.
-- On the last line, it will display “Hello World!” in the serial monitor.
+- On the last line, it will display “**Hello World!**” in the serial monitor.
 
 ### Now we will compile, send the code to the board and then open the serial monitor
 
