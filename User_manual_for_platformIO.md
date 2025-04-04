@@ -81,6 +81,6 @@ In the example below we are using a Arduino UNO
 Now have you installed, started and made a simple project using PlatformIO
 
 ### Extra
-For more information use the link below for further information and more advance understanding
+For more information use the link below for further information and more advance understanding:
 [Quick guide for PlatformIO](https://docs.platformio.org/en/latest/integration/ide/pioide.html) 
 
